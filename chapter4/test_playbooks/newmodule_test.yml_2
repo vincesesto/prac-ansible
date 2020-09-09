@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  - name: testing our new module
+    os_type:
+    register: result
+  - debug: var=result
+
