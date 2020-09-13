@@ -79,6 +79,6 @@
 - name: delete ec2 instance configured to create the Splunk server AMI
   ec2:
     region: "{{ ec2_region }}"
-    instance_ids: "{{ ec2.instance_ids }}"
+    instance_ids: “{{ ec2.instance_ids }}”
     state: absent
 
