@@ -1,2 +1,6 @@
 ---
-# tasks file for test_role
+- name: Install git
+  yum:
+    name: git
+    state: present
+
